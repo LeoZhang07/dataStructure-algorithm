@@ -10,7 +10,7 @@ import org.junit.Test;
  * @date 2023/10/18 14:24
  * @Copyright：treadstone.JasonBourne.com
  */
-public class Q5_SelectionSort {
+public class M5_SelectionSort {
     public void selectionSort(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
             int minValueIndex = i;

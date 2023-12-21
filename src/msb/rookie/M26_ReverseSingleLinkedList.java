@@ -9,7 +9,7 @@ import definitions.ListNode;
  * @date 2023/10/27 16:11
  * @Copyright：treadstone.JasonBourne.com
  */
-public class Q26_ReverseSingleLinkedList {
+public class M26_ReverseSingleLinkedList {
     public ListNode reverseSingleLinkedList(ListNode head) {
         ListNode pre = null;
         ListNode next;

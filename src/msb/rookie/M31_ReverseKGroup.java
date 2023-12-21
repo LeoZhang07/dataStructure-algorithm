@@ -13,7 +13,7 @@ import org.junit.Test;
  * @date 2023/10/27 16:27
  * @Copyright：treadstone.JasonBourne.com
  */
-public class Q31_ReverseKGroup {
+public class M31_ReverseKGroup {
     public ListNode reverseKGroup(ListNode head, int k) {
         ListNode hair = new ListNode(0, head);
         ListNode preTail = hair;

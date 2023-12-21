@@ -9,7 +9,7 @@ import definitions.ListNode;
  * @Date 2022/9/2 10:22
  * Version 1.0
  **/
-public class Q2_AddTwoNumbers {
+public class L2_AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode hair = new ListNode();
         ListNode tail = hair;

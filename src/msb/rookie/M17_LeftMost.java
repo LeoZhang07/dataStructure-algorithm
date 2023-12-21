@@ -2,8 +2,6 @@ package msb.rookie;
 
 import org.junit.Test;
 
-import java.io.CharArrayReader;
-
 /**
  * @author leo
  * @version 1.0
@@ -12,7 +10,7 @@ import java.io.CharArrayReader;
  * @date 2023/10/24 10:24
  * @Copyright：treadstone.JasonBourne.com
  */
-public class Q17_LeftMost {
+public class M17_LeftMost {
     public int findLeftMost(int[] nums, int k) {
         int left = 0;
         int right = nums.length - 1;

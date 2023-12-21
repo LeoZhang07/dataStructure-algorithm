@@ -10,7 +10,7 @@ import org.junit.Test;
  * @date 2023/10/18 14:08
  * @Copyright：treadstone.JasonBourne.com
  */
-public class Q4_FactorialAddition {
+public class M4_FactorialAddition {
     public long factorialAddition(int n) {
         long ans = 0;
         long cur = 1;

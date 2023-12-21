@@ -9,7 +9,7 @@ import definitions.ListNode;
  * @date 2023/11/16 22:18
  * @Copyright：treadstone.JasonBourne.com
  */
-public class Q21_MergeTwoSortedLists {
+public class L21_MergeTwoSortedLists {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode hair = new ListNode();
         ListNode temp = hair;

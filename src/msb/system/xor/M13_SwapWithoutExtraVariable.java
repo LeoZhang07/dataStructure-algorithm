@@ -9,7 +9,7 @@ import java.util.Arrays;
  * 对于对象引用类型（如自定义类的对象），情况会有所不同。如果你传递的是一个对象的引用，那么在方法内部更改该对象的状态会影响原始对象。
  * 不用多余内存交换两个数
  * */
-public class SwapWithoutExtraVariable {
+public class M13_SwapWithoutExtraVariable {
     public void swapWithExtraVariable(int a, int b) {
         int temp = a;
         a = b;
