@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.heap;
 
 import definitions.ListNode;
 import org.junit.Test;
@@ -13,7 +13,7 @@ import java.util.PriorityQueue;
  * @date 2023/12/13 15:52
  * @Copyright：treadstone.JasonBourne.com
  */
-public class MergeKLists {
+public class L23_MergeKLists {
     //堆实现（优先级队列）
     public ListNode mergeKLists1(ListNode[] lists) {
         PriorityQueue<ListNode> priorityQueue = new PriorityQueue<>(Comparator.comparingInt(o -> o.val));
