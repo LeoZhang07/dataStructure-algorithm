@@ -1,5 +1,7 @@
 package msb.rookie.binaryTree;
 
+import definitions.TreeNode;
+
 /**
  * @author leo
  * @version 1.0
