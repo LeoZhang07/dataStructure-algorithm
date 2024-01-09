@@ -1,4 +1,4 @@
-package msb.rookie.binaryTree;
+package definitions;
 
 /**
  * @author leo

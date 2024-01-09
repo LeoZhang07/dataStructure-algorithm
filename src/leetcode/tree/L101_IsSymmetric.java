@@ -1,6 +1,6 @@
 package leetcode.tree;
 
-import msb.rookie.binaryTree.TreeNode;
+import definitions.TreeNode;
 import org.junit.Test;
 
 /**
