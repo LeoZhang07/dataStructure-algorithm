@@ -1,0 +1,26 @@
+pre： 3【9 5 15 7 4】【8 10 20】
+in： 【15 5 7 9 4】3【10 8 20】
+
+    public TreeNode recursionBuild(int[] preorder, int[] inorder, int preLeft, int preRight, int inLeft, int inRight) {
+        if () {
+
+        }
+        //根在前序中的位置：就是preLeft
+        int rootPreorderPosition = preLeft;
+        TreeNode root = new TreeNode(preorder[preLeft]);
+        //根在中序中的位置
+        Integer rootInorderPosition = map.get(root);
+        //左子树的长度
+        int lengthOfLeft = rootInorderPosition - preLeft;
+        //填入左子树的 前序左、前序右、中序左、中序右
+        root.left = recursionBuild(preorder, inorder, preLeft + 1,preLeft + lengthOfLeft, inLeft, rootInorderPosition - 1);
+        //填入右子树的 前序左、前序右、中序左、中序右
+        root.right = recursionBuild(preorder, inorder, rootInorderPosition + 1, rootPreorderPosition + lengthOfLeft, rootInorderPosition + 1, inRight);
+        return root;
+    }
+
+开始：(0,8,0,8)
+root=3
+rootInorderPosition=5
+lengthOfLeft=5
+root.left=(1,)
