@@ -1,0 +1,29 @@
+时长单位转换
+
+在时长不同的单位之间进行转换和表示
+给定某单位表示的时长，请向尽量大的一个或多个单位转换
+·确保转换后的每个单位数值为整数
+·如果转换后某单位数值为0，则跳过该单位不输出
+｜假设该星球时长的单位及换算关系如下：1year = 22month，1month = 31day，1day = 24hour，1hour = 60 minute，1minute = 60second
+
+输入
+某单位表示的时长的字符串，格式为：数值 单位，
+｜用例保证数值为大于0的整数，且转换前后时长小于10year
+
+输出
+转换后的时长表示，各单位和数值之间以单空格分隔
+
+样例1
+输入："489607 minute"
+输出："10 month 30 day 7 minute"
+解释：向更大单位转换，转换结果为10 month 30 day 0 hour 7 minute，而不能是9 month 61 day 0 hour 7 minute，340 day 0 hour 7 minute ...
+     minute 单位的数值为0，不输出；最终输出结果为字符串 10 month 30 day 7 minute
+
+样例2
+输入："530323200 second"
+输出："9 year"
+
+样例3
+输入："21 month"
+输出："21 month"
+解释：时长不足1year（1year = 22month），保持原值
