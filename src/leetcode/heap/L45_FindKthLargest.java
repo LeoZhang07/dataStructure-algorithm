@@ -9,7 +9,7 @@ import org.junit.Test;
  * @Date 2023/2/6 15:59
  * Version 1.0
  **/
-public class FindKthLargest {
+public class L45_FindKthLargest {
     public int findKthLargest(int[] nums, int k) {
         //heapify构建堆
         int end = nums.length - 1;
